@@ -1,5 +1,5 @@
 
-import './styles.css';
+import './styles/card-hover.css';
 
 const CardHover = () => {
   return (
@@ -7,11 +7,10 @@ const CardHover = () => {
       <div className='heading'>
         <h1 className='title'>Card Hover</h1>
         <p className='description'>
-          I saw this CSS trick in a <a href='https://www.youtube.com/watch?v=Uwcf06elDIA&list=PLVOXfoQ_x6wcFJ8b122nEVC0jnDjoqKlk&index=5' target='_blank'>YouTube short</a> and I wanted to try implementing it. 
-          Pretty simple overall. I didn't bother too much with the image styling so please ignore how poorly aligned they are :)
+          I saw this CSS trick in a <a href='https://www.youtube.com/watch?v=Uwcf06elDIA&list=PLVOXfoQ_x6wcFJ8b122nEVC0jnDjoqKlk&index=5' target='_blank'>YouTube short</a> and I wanted to try implementing it.
         </p>
       </div>
-      <div className='wrapper'>
+      <div id='card-hover'>
         <div className='card'>
           <img src='https://cdn.thewirecutter.com/wp-content/media/2021/03/dogharnesses-2048px-6907-1024x682.webp' />
         </div>
