@@ -4,12 +4,7 @@ import './styles/card-hover.css';
 const CardHover = () => {
   return (
     <>
-      <div className='heading'>
-        <h1 className='title'>Card Hover</h1>
-        <p className='description'>
-          I saw this CSS trick in a <a href='https://www.youtube.com/watch?v=Uwcf06elDIA&list=PLVOXfoQ_x6wcFJ8b122nEVC0jnDjoqKlk&index=5' target='_blank'>YouTube short</a> and I wanted to try implementing it.
-        </p>
-      </div>
+      <h1 className='title'>Card Hover</h1>
       <div id='card-hover'>
         <div className='card'>
           <img src='https://cdn.thewirecutter.com/wp-content/media/2021/03/dogharnesses-2048px-6907-1024x682.webp' />
