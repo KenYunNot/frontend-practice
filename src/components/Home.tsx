@@ -4,7 +4,12 @@ const links = [
   {
     title: 'Card Hover',
     href: '/card-hover',
-    description: 'I saw this trick on YouTube shorts and I wanted to try it.'
+    description: 'I saw this trick on YouTube shorts and wanted to use it.'
+  },
+  {
+    title: 'Move With Scroll',
+    href: '/move-with-scroll',
+    description: 'This is a CSS trick I\'ve been seeing on websites for companies I apply to, so I thought I would try to create it from scratch.'
   }
 ]
 
