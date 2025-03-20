@@ -5,7 +5,7 @@ const CardHover = () => {
   return (
     <>
       <h1 className='title'>Card Hover</h1>
-      <div id='card-hover'>
+      <div id='card-hover' className='mt-15'>
         <div className='card'>
           <img src='https://cdn.thewirecutter.com/wp-content/media/2021/03/dogharnesses-2048px-6907-1024x682.webp' />
         </div>
