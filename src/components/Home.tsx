@@ -9,7 +9,7 @@ const links = [
   {
     title: 'Move With Scroll',
     href: '/move-with-scroll',
-    description: 'This is a CSS trick I\'ve been seeing on websites for companies I apply to, so I thought I would try to create it from scratch.'
+    description: 'This is a CSS trick I\'ve been seeing on different websites, so I thought I would try to create it from scratch.'
   }
 ]
 

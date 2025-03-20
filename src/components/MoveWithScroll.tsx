@@ -21,7 +21,7 @@ const MoveWithScroll = () => {
   const wrapperRef = React.useRef<HTMLDivElement>(null);
 
   React.useEffect(() => {
-    const moveContentWithScroll = (ev: Event) => {
+    const moveContentWithScroll = () => {
       if (!movingContentRef.current || !wrapperRef.current) return;
   
       if (window.scrollY + movingContentRef.current.offsetHeight >= wrapperRef.current.offsetTop + wrapperRef.current.offsetHeight) { 
